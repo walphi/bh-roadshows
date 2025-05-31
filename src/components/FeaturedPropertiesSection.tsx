@@ -71,24 +71,24 @@ const FeaturedPropertiesSection = () => {
   return (
     <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-bh-navy mb-4">
+        <div className="text-center mb-12 animate-fade-in">
+          <h2 className="text-3xl md:text-4xl font-bold text-bh-navy mb-4 hover:text-bh-coral transition-colors duration-300 cursor-default">
             Featured Sobha Properties
           </h2>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8 hover:text-bh-navy transition-colors duration-300">
             Discover premium off-plan properties in Dubai's most prestigious locations. 
             Exclusive payment plans available only during the roadshow.
           </p>
           
           {/* Filter Buttons */}
           <div className="flex flex-wrap justify-center gap-2 mb-8">
-            {filters.map((filter) => (
+            {filters.map((filter, index) => (
               <Button
                 key={filter}
                 variant={filter === "All" ? "default" : "outline"}
                 className={filter === "All" 
-                  ? "bg-bh-coral hover:bg-bh-coral/90 text-white" 
-                  : "border-gray-300 text-gray-600 hover:border-bh-coral hover:text-bh-coral"
+                  ? "bg-bh-coral hover:bg-bh-coral/90 text-white transform hover:scale-105 transition-all duration-300" 
+                  : "border-gray-300 text-gray-600 hover:border-bh-coral hover:text-bh-coral transform hover:scale-105 transition-all duration-300"
                 }
               >
                 {filter}
@@ -100,13 +100,21 @@ const FeaturedPropertiesSection = () => {
         {/* Properties Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {properties.map((property, index) => (
-            <PropertyCard key={index} {...property} />
+            <div 
+              key={index}
+              className={`animate-[fade-in_0.6s_ease-out_${index * 150}ms_both]`}
+            >
+              <PropertyCard {...property} />
+            </div>
           ))}
         </div>
 
         {/* View All Button */}
-        <div className="text-center">
-          <Button size="lg" className="bg-bh-navy hover:bg-bh-navy/90 text-white px-8">
+        <div className="text-center animate-fade-in">
+          <Button 
+            size="lg" 
+            className="bg-bh-navy hover:bg-bh-navy/90 text-white px-8 transform hover:scale-105 transition-all duration-300 hover:shadow-lg"
+          >
             View All Properties
           </Button>
         </div>

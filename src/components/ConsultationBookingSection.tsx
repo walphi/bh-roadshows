@@ -10,6 +10,7 @@ import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover
 import { format } from 'date-fns';
 import { CalendarIcon } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import AnimatedBenefit from './AnimatedBenefit';
 
 const ConsultationBookingSection = () => {
   const [date, setDate] = useState<Date>();
@@ -59,11 +60,11 @@ const ConsultationBookingSection = () => {
   return (
     <section className="py-16 bg-bh-navy text-white">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+        <div className="text-center mb-12 animate-fade-in">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 hover:text-bh-coral transition-colors duration-300 cursor-default">
             Book Your Consultation
           </h2>
-          <p className="text-lg opacity-90 max-w-3xl mx-auto">
+          <p className="text-lg opacity-90 max-w-3xl mx-auto hover:opacity-100 transition-opacity duration-300">
             Schedule a one-on-one meeting with our property experts during the roadshow 
             to discuss your investment goals.
           </p>
@@ -71,33 +72,37 @@ const ConsultationBookingSection = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Benefits */}
-          <div>
-            <h3 className="text-2xl font-semibold mb-6">Why Book a Consultation?</h3>
+          <div className="animate-[slide-in-right_0.8s_ease-out]">
+            <h3 className="text-2xl font-semibold mb-6 hover:text-bh-coral transition-colors duration-300 cursor-default">
+              Why Book a Consultation?
+            </h3>
             <div className="space-y-6 mb-8">
               {benefits.map((benefit, index) => (
-                <div key={index} className="flex items-start space-x-4">
-                  <div className="text-2xl">{benefit.icon}</div>
-                  <div>
-                    <h4 className="text-xl font-semibold mb-2 text-bh-coral">{benefit.title}</h4>
-                    <p className="opacity-90">{benefit.description}</p>
-                  </div>
-                </div>
+                <AnimatedBenefit
+                  key={index}
+                  title={benefit.title}
+                  description={benefit.description}
+                  icon={benefit.icon}
+                  delay={index * 200}
+                />
               ))}
             </div>
             
-            <div className="bg-white/10 rounded-lg p-6">
-              <p className="text-lg font-medium mb-2">Additional Information</p>
-              <p className="opacity-90">
+            <div className="bg-white/10 rounded-lg p-6 transform hover:scale-[1.02] transition-all duration-300 hover:bg-white/15">
+              <p className="text-lg font-medium mb-2 hover:text-bh-coral transition-colors duration-300">
+                Additional Information
+              </p>
+              <p className="opacity-90 hover:opacity-100 transition-opacity duration-300">
                 Each consultation lasts 30 minutes. Our experts speak English, Dutch, and Arabic.
               </p>
             </div>
           </div>
 
           {/* Booking Form */}
-          <div>
-            <Card className="bg-white text-gray-900">
+          <div className="animate-[slide-in-right_1.2s_ease-out]">
+            <Card className="bg-white text-gray-900 transform hover:scale-[1.01] transition-all duration-300 hover:shadow-2xl">
               <CardContent className="p-6">
-                <h3 className="text-2xl font-bold text-bh-navy mb-6">
+                <h3 className="text-2xl font-bold text-bh-navy mb-6 hover:text-bh-coral transition-colors duration-300 cursor-default">
                   Select Your Preferred Date & Time
                 </h3>
                 
@@ -112,7 +117,7 @@ const ConsultationBookingSection = () => {
                         <Button
                           variant="outline"
                           className={cn(
-                            "w-full justify-start text-left font-normal",
+                            "w-full justify-start text-left font-normal hover:scale-[1.02] transition-all duration-300",
                             !date && "text-muted-foreground"
                           )}
                         >
@@ -144,10 +149,10 @@ const ConsultationBookingSection = () => {
                           type="button"
                           onClick={() => setSelectedTimeSlot(slot)}
                           className={cn(
-                            "p-2 text-sm border rounded-lg transition-colors",
+                            "p-2 text-sm border rounded-lg transition-all duration-300 transform hover:scale-105",
                             selectedTimeSlot === slot
-                              ? "bg-bh-coral text-white border-bh-coral"
-                              : "border-gray-300 hover:border-bh-coral"
+                              ? "bg-bh-coral text-white border-bh-coral scale-105 shadow-lg"
+                              : "border-gray-300 hover:border-bh-coral hover:shadow-md"
                           )}
                         >
                           {slot}
@@ -167,6 +172,7 @@ const ConsultationBookingSection = () => {
                         onChange={(e) => setName(e.target.value)}
                         placeholder="Your full name"
                         required
+                        className="transition-all duration-300 focus:scale-[1.02] focus:shadow-md"
                       />
                     </div>
                     <div>
@@ -178,6 +184,7 @@ const ConsultationBookingSection = () => {
                         onChange={(e) => setPhone(e.target.value)}
                         placeholder="Your phone number"
                         required
+                        className="transition-all duration-300 focus:scale-[1.02] focus:shadow-md"
                       />
                     </div>
                   </div>
@@ -192,6 +199,7 @@ const ConsultationBookingSection = () => {
                       onChange={(e) => setEmail(e.target.value)}
                       placeholder="Your email address"
                       required
+                      className="transition-all duration-300 focus:scale-[1.02] focus:shadow-md"
                     />
                   </div>
 
@@ -204,6 +212,7 @@ const ConsultationBookingSection = () => {
                       onChange={(e) => setMessage(e.target.value)}
                       placeholder="Tell us about your investment goals..."
                       rows={3}
+                      className="transition-all duration-300 focus:scale-[1.02] focus:shadow-md"
                     />
                   </div>
 
@@ -212,15 +221,16 @@ const ConsultationBookingSection = () => {
                       id="consent"
                       checked={consent}
                       onCheckedChange={handleConsentChange}
+                      className="transition-transform duration-300 hover:scale-110"
                     />
-                    <label htmlFor="consent" className="text-sm text-gray-600">
+                    <label htmlFor="consent" className="text-sm text-gray-600 hover:text-bh-navy transition-colors duration-300 cursor-pointer">
                       I agree to the Privacy Policy and consent to being contacted by Betterhomes.
                     </label>
                   </div>
 
                   <Button 
                     type="submit"
-                    className="w-full bg-bh-coral hover:bg-bh-coral/90 text-white"
+                    className="w-full bg-bh-coral hover:bg-bh-coral/90 text-white transform hover:scale-[1.02] transition-all duration-300 hover:shadow-lg"
                     disabled={!date || !selectedTimeSlot || !name || !email || !phone || !consent}
                   >
                     Confirm Consultation
