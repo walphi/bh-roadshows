@@ -10,6 +10,10 @@ const HeroSection = () => {
   const [password, setPassword] = useState('');
   const [rememberMe, setRememberMe] = useState(false);
 
+  const handleRememberMeChange = (checked: boolean | "indeterminate") => {
+    setRememberMe(checked === true);
+  };
+
   return (
     <section className="relative bg-gradient-to-r from-bh-navy to-bh-navy/90 text-white min-h-[80vh] flex items-center">
       {/* Background Image Overlay */}
@@ -92,7 +96,7 @@ const HeroSection = () => {
                       <Checkbox 
                         id="remember"
                         checked={rememberMe}
-                        onCheckedChange={setRememberMe}
+                        onCheckedChange={handleRememberMeChange}
                       />
                       <label htmlFor="remember" className="text-sm text-gray-600">
                         Remember me

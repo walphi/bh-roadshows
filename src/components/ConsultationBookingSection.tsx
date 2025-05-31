@@ -52,6 +52,10 @@ const ConsultationBookingSection = () => {
     }
   ];
 
+  const handleConsentChange = (checked: boolean | "indeterminate") => {
+    setConsent(checked === true);
+  };
+
   return (
     <section className="py-16 bg-bh-navy text-white">
       <div className="container mx-auto px-4">
@@ -207,7 +211,7 @@ const ConsultationBookingSection = () => {
                     <Checkbox 
                       id="consent"
                       checked={consent}
-                      onCheckedChange={setConsent}
+                      onCheckedChange={handleConsentChange}
                     />
                     <label htmlFor="consent" className="text-sm text-gray-600">
                       I agree to the Privacy Policy and consent to being contacted by Betterhomes.
