@@ -1,8 +1,21 @@
 import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
+declare global {
+  interface Window {
+    fbq: (...args: any[]) => void;
+  }
+}
+
 const ThankYou = () => {
+  useEffect(() => {
+    if (window.fbq) {
+      window.fbq('track', 'Lead');
+    }
+  }, []);
+
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
