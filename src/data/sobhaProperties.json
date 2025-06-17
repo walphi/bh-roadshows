@@ -1,0 +1,320 @@
+[
+  {
+    "id": "sobha-solis",
+    "name": "Sobha Solis",
+    "developer": "Sobha Realty",
+    "location": "Motor City, Dubai",
+    "propertyType": "Luxury Residential Apartments",
+    "projectSummary": "Sobha Solis is a luxury residential development by Sobha Realty, located in Motor City, Dubai. The project features an exclusive collection of 1, 1.5, 2, and 3-bedroom apartments across four architecturally distinct towers, all connected by a shared podium reserved for residents. The design emphasizes expansive layouts, large windows, and private balconies, offering abundant natural light and panoramic views of vibrant gardens and the Motor City racetrack.",
+    "quotedDescription": "Welcome to an urban oasis where luxury meets adventure. Located in Motor City, this stunning sanctuary presents an exclusive collection of 1 to 3-bedroom residences, elegantly arranged across four distinct towers, all connected by a shared podium reserved for residents. Each apartment is thoughtfully designed with expansive layouts, large windows, and private balconies, flooding your home with natural light and offering breathtaking views. Enjoy the visual feast of vibrant gardens and the exhilarating backdrop of the racetrack, all from the comfort of your serene home.",
+    "status": "Launched",
+    "launchDate": "January 15, 2025 (pre-launch), official launch February 15, 2025",
+    "completionDate": "December 2027",
+    "priceRange": "AED 1,007,360 – 4,036,776+",
+    "goldenVisaEligible": true,
+    "unitTypes": [
+      { "bedrooms": "1", "sizeSqft": "535 – 576", "layouts": "With/without balcony, study/storage", "bathrooms": "2 (including 1 en-suite + powder)", "priceRangeAED": "1,007,360 – 1,409,111" },
+      { "bedrooms": "1.5", "sizeSqft": "~615", "layouts": "With study/storage, powder room", "bathrooms": "2 (including powder room)", "priceRangeAED": "1,138,638 – 1,331,387" },
+      { "bedrooms": "2", "sizeSqft": "615 – 1,125", "layouts": "With study, powder/maid room, balcony", "bathrooms": "3", "priceRangeAED": "2,080,140+" },
+      { "bedrooms": "3", "sizeSqft": "1,888 – 1,889", "layouts": "With maid room, balcony", "bathrooms": "4 (including powder room)", "priceRangeAED": "3,843,810 – 4,036,776" }
+    ],
+    "amenities": [
+      "Indoor Racetrack Viewing Deck", "Lap Pool", "F&B Lounge", "Seating Court",
+      "Interactive Play Fountain", "Outdoor Cinema",
+      "Arsenal Fitness Zone (state-of-the-art gym inspired by professional athletes)",
+      "Children’s Pool and Play Area", "Co-Working Spaces and Library",
+      "Zen Gardens and Jogging Paths", "Dog Park", "Yoga and Meditation Zone",
+      "Covered Parking", "High-speed Elevators", "24/7 Security and Maintenance",
+      "Barbecue Area", "Gaming Lounge", "Steam Room", "Sauna",
+      "Large clubhouse (over 50,000 sq ft)"
+    ],
+    "paymentPlan": {
+      "downPayment": "10%",
+      "duringConstruction": "60%",
+      "onHandover": "40%"
+    },
+    "investmentHighlights": [
+      "Prime Motor City location, close to major highways and attractions",
+      "Branded residences by Sobha Realty, known for superior construction quality",
+      "Spacious layouts with panoramic views",
+      "Golden Visa eligibility for properties above AED 2 million",
+      "Strong rental and capital appreciation potential"
+    ],
+    "projectDetails": {
+      "totalAreaAcres": 11.75,
+      "openSpacePercentage": 80,
+      "numberOfTowers": 4,
+      "towerHeight": "G+43 or G+46 floors",
+      "totalUnits": "1,550 to 2,316",
+      "clubhouseSizeSqft": 50000,
+      "freehold": true,
+      "reraApproved": true
+    },
+    "locationDetails": {
+      "accessibility": [
+        "5 minutes to Dubai Autodrome",
+        "10 minutes to Dubai International Cricket Stadium",
+        "13 minutes to Miracle Garden",
+        "20 minutes to Burj Al Arab",
+        "30 minutes to Palm Jumeirah and The Dubai Mall",
+        "Easy access to Sheikh Mohammed Bin Zayed Road, Al Qudra Road, Al Barsha, and Dubai Sports City"
+      ]
+    },
+    "imageUrls": [
+      "https://sobharealty.com/sites/default/files/styles/webp/public/2024-09/web_2.jpg.webp?itok=9bIxK-a1",
+      "Please provide gallery image URL 1 (optional)",
+      "Please provide gallery image URL 2 (optional)"
+    ],
+    "threeDTourUrl": "Please provide if available",
+    "floorPlanUrl": "Please provide if available",
+    "brochureUrl": "Please provide if available"
+  },
+  {
+    "id": "sobha-elwood",
+    "name": "Sobha Elwood Villas",
+    "developer": "Sobha Realty",
+    "location": "Near Dubai Rugby Sevens, Dubai",
+    "propertyType": "Luxury Villas",
+    "projectSummary": "Sobha Elwood is a large-scale luxury villa development by Sobha Realty, spanning 10 million square feet. The project is set within a serene, sustainable environment, with over 10,000 trees covering 26% of the site area. Sobha Elwood is designed around the ethos of “The Canvas of Nature,” with each residence meticulously crafted to blend seamlessly into lush, green surroundings. All villas are independent, with G+1 or G+2 layouts, private gardens, and premium amenities.",
+    "quotedDescription": "Sobha Elwood, a massive development spanning 10 million Sq. Ft., is elegantly situated within a serene and sustainable environment, where 10,000+ trees adorn 26% of the site area. Embodying the ethos of ‘The Canvas of Nature,’ Sobha Elwood epitomises luxury living. Each residence is a meticulously designed masterpiece, seamlessly integrating with the lush surroundings.\n\nThe landscape (with dedicated 47% open space and parks) and parks here are inspired by the world's seven largest forests - from the Baobab to the Amazon rainforest - showcasing an array of trees from the most mystical and enchanting woodlands. This exclusive community features premium villas in 4, 5, and 6-bedroom configurations, each crafted to envelop residents in a tranquil and natural environment.",
+    "status": "Under Construction",
+    "launchDate": "Please specify",
+    "completionDate": "Q4 2027",
+    "priceRange": "AED 7,930,000 - 11,500,000+",
+    "goldenVisaEligible": true,
+    "unitTypes": [
+      { "bedrooms": "4", "sizeSqft": "4,957 – 4,969", "plotSizeSqft": "6,190 – 6,997", "layouts": "Independent G+1 or G+2, private gardens, premium amenities", "bathrooms": "Please specify", "priceRangeAED": "7,930,000 – 8,300,000" },
+      { "bedrooms": "5", "sizeSqft": "5,800 – 5,807", "plotSizeSqft": "6,216 – 7,003", "layouts": "Independent G+1 or G+2, private gardens, premium amenities", "bathrooms": "Please specify", "priceRangeAED": "9,280,000+" },
+      { "bedrooms": "6", "sizeSqft": "7,186", "plotSizeSqft": "8,719", "layouts": "Independent G+1 or G+2, private gardens, premium amenities", "bathrooms": "Please specify", "priceRangeAED": "11,000,000 – 11,500,000" }
+    ],
+    "amenities": [
+      "Adventure Walk",
+      "Cycling Track",
+      "Cricket Pitch",
+      "Community Garden",
+      "Dog Park",
+      "Massive Clubhouse",
+      "Nature-Inspired Living (landscape inspired by world's seven largest forests: Baobab, Amazon, etc.)",
+      "Extensive Open Space and Parks (47% of community)",
+      "Over 10,000 trees",
+      "Resort-style amenities"
+    ],
+    "paymentPlan": {
+      "downPayment": "10%",
+      "duringConstruction": "60%",
+      "onHandover": "40%",
+      "flexibility": "Flexible"
+    },
+    "investmentHighlights": [
+      "Please specify any key investment points"
+    ],
+    "projectDetails": {
+      "totalAreaSqFt": 10000000,
+      "treeCoveragePercentage": 26,
+      "numberOfTrees": "10,000+",
+      "openSpaceAndParksPercentage": 47,
+      "villaLayouts": "G+1 or G+2",
+      "villaType": "Independent"
+    },
+    "locationDetails": {
+      "accessibility": [
+        "5 minutes to Dubai Rugby Sevens",
+        "8 minutes to Dubai Outlet Mall",
+        "20 minutes to Downtown Dubai",
+        "25 minutes to Dubai International Airport",
+        "30 minutes to Al Maktoum International Airport"
+      ]
+    },
+    "imageUrls": [
+      "https://sobharealty.com/sites/default/files/styles/webp/public/2024-08/Banner-1440x619%20%CE%93%C3%87%C3%B4%201.jpg.webp?itok=GRDEbscT",
+      "Please provide gallery image URL 1 (optional)",
+      "Please provide gallery image URL 2 (optional)"
+    ],
+    "threeDTourUrl": "Please provide if available",
+    "floorPlanUrl": "Please provide if available",
+    "brochureUrl": "Please provide if available"
+  },
+  {
+    "id": "the-horizon-sobha-central",
+    "name": "The Horizon at Sobha Central",
+    "developer": "Sobha Realty",
+    "location": "Sheikh Zayed Road, Bluewaters and JLT interchange, Dubai",
+    "propertyType": "Luxury Apartments",
+    "projectSummary": "The Horizon is the flagship residential tower within the Sobha Central constellation, rising as a 75-floor architectural landmark along Sheikh Zayed Road at the Bluewaters and JLT interchange. It offers luxury 1- and 2-bedroom apartments, all designed to maximize panoramic, unobstructed views of Dubai’s skyline, with no surrounding towers within a 500-meter radius.",
+    "quotedDescription": "The first beacon to rise within the Sobha Central constellation, The Horizon is perfectly positioned at the heart of the Bluewaters and JLT interchange. This architectural landmark offers breathtaking, unobstructed views across Dubai’s skyline from every 1- to 2-bedroom residence. With no surrounding towers within a 500-meter radius, residents enjoy uninterrupted vistas—from tranquil podium gardens to the boundless cityscape beyond. It’s elevated living where every window captures a sense of freedom.",
+    "status": "Please specify (e.g., Off-plan, Under Construction)",
+    "launchDate": "Please specify",
+    "completionDate": "December 2029",
+    "priceRange": "Starting from AED 1,520,000",
+    "goldenVisaEligible": true,
+    "unitTypes": [
+      { "bedrooms": "1", "sizeSqft": "568 – 781", "layouts": "May include store/study. Designer kitchens and bathrooms, built-in German appliances (Bosch, Siemens), home automation systems.", "bathrooms": "Please specify", "priceRangeAED": "Starting from 1,520,000" },
+      { "bedrooms": "2", "sizeSqft": "936 – 1,554", "layouts": "May offer study and maid’s room, separated laundry and storage. Designer kitchens and bathrooms, built-in German appliances (Bosch, Siemens), home automation systems.", "bathrooms": "Please specify", "priceRangeAED": "Starting from 2,480,000" }
+    ],
+    "amenities": [
+      "Indoor and outdoor swimming pools (including infinity-edge lap pool)",
+      "Fully equipped fitness center, calisthenic gym, yoga and meditation studios",
+      "Outdoor gym, jogging tracks, landscaped podium gardens, rooftop lounges",
+      "Outdoor cinema, indoor theatre, art galleries, library",
+      "Family BBQ and gathering spaces, outdoor dining pavilions",
+      "Children’s play zones, adventure mounds, projection playground, bubble lounge",
+      "Multipurpose sports courts (football, cricket batting enclosure, mini golf)",
+      "Dog park, artificial turf play mounds",
+      "Steam and sauna with changing rooms, spa",
+      "Concierge services, co-working/business center, WFH spaces",
+      "Grand prayer hall",
+      "160,000 sq ft integrated luxury shopping mall at podium level (Sobha Central mall)",
+      "Direct internal access to shopping, dining, cinema, gym, supermarket from interconnected lift lobbies",
+      "Ample personal parking spaces",
+      "Floor-to-ceiling windows and private balconies in every residence",
+      "250,000 sq ft of green areas, shaded courtyards, and event lawns"
+    ],
+    "paymentPlan": {
+      "booking": "20%",
+      "installments": [
+        { "percentage": "10%", "timing": "in 12 months" },
+        { "percentage": "10%", "timing": "in 24 months" },
+        { "percentage": "10%", "timing": "in 36 months" },
+        { "percentage": "10%", "timing": "in 42 months" }
+      ],
+      "onHandover": "40%"
+    },
+    "investmentHighlights": [
+      "Freehold ownership for all nationalities",
+      "Golden Visa eligibility for qualifying investments",
+      "Estimated ROI: 7–8% (off-plan Dubai market)",
+      "0% property tax for buyers",
+      "Prime connectivity to Dubai Marina, Downtown, DIFC, and major business hubs",
+      "Unobstructed panoramic views (no surrounding towers within 500m radius)"
+    ],
+    "projectDetails": {
+      "towerHeightFloors": 75,
+      "greenSpaceSqFt": 250000,
+      "mallSizeSqFt": 160000,
+      "numberOfAdjacentTowersConnected": 2
+    },
+    "locationDetails": {
+      "interchange": "Bluewaters and JLT",
+      "mainRoadAccess": "Direct access to Sheikh Zayed Road",
+      "metroAccess": "Walking distance to Jebel Ali Metro Station (2 minutes)",
+      "accessibility": [
+        "Jebel Ali Metro Station: 2 minutes",
+        "JBR: 13 minutes",
+        "Dubai Marina: 13 minutes",
+        "JLT: 12 minutes"
+      ]
+    },
+    "imageUrls": [
+      "https://sobharealty.com/sites/default/files/styles/webp/public/2025-05/Property%20Banner%201440x618%20%E2%80%93%207_0.jpg.webp?itok=PcJntmcx",
+      "Please provide gallery image URL 1 (optional)",
+      "Please provide gallery image URL 2 (optional)"
+    ],
+    "threeDTourUrl": "Please provide if available",
+    "floorPlanUrl": "Please provide if available",
+    "brochureUrl": "Please provide if available"
+  },
+  {
+    "id": "sobha-siniya-island-villas",
+    "name": "Sobha Island Villas (Sobha Siniya Island)",
+    "developer": "Sobha Realty",
+    "location": "Sobha Siniya Island, Umm Al Quwain",
+    "propertyType": "Luxury Sea-Facing Villas",
+    "projectSummary": "Luxurious sea-facing villas on Sobha Siniya Island, offering 4, 5, and 6-bedroom layouts with exclusive boardwalk access and panoramic sea views. A blend of modern architecture and nature.",
+    "quotedDescription": "Welcome to the luxurious sea-facing villas that embrace the serene beauty of the lagoon waterfront. With exclusive access to the boardwalk, these 4, 5, and 6-bedroom villas offer panoramic sea views that redefine opulence. A harmonious blend of modern architecture and nature’s splendour, promising a lifestyle that’s as unique as the island itself.",
+    "status": "Please specify (e.g., Off-plan, Under Construction)",
+    "launchDate": "Please specify",
+    "completionDate": "2028",
+    "priceRange": "Starting from AED 10.5 million",
+    "goldenVisaEligible": "Please specify (true/false, likely true)",
+    "unitTypes": [
+      {
+        "bedrooms": "4",
+        "subType": "Palm Grove Villa",
+        "sizeSqft": "From 5,839",
+        "plotSizeSqft": "Please specify (e.g., 5,839 - X sqft)",
+        "layouts": "Beach homes with direct access to sand and sea.",
+        "bathrooms": "Please specify",
+        "priceRangeAED": "Starting at AED 10.5 million"
+      },
+      {
+        "bedrooms": "5",
+        "subType": "Coral Beach Villa",
+        "sizeSqft": "7,245 – 7,413",
+        "plotSizeSqft": "Please specify",
+        "layouts": "Luxurious, modern elegance, private gardens, private pools, spacious outdoor areas, easy access to boardwalks, lagoons, and beaches.",
+        "bathrooms": "Please specify",
+        "priceRangeAED": "Starting at AED 17.7 million"
+      },
+      {
+        "bedrooms": "5",
+        "subType": "Palm Grove Villa",
+        "sizeSqft": "Please specify (if different from Coral Beach 5-bed)",
+        "plotSizeSqft": "Please specify",
+        "layouts": "Beach homes with direct access to sand and sea.",
+        "bathrooms": "Please specify",
+        "priceRangeAED": "Please specify (if different from Coral Beach 5-bed)"
+      },
+      {
+        "bedrooms": "6",
+        "subType": "Coral Beach Villa",
+        "sizeSqft": "9,788",
+        "plotSizeSqft": "Please specify",
+        "layouts": "Luxurious, modern elegance, private gardens, private pools, spacious outdoor areas, easy access to boardwalks, lagoons, and beaches.",
+        "bathrooms": "Please specify",
+        "priceRangeAED": "Starting at AED 24.4 million"
+      },
+      {
+        "bedrooms": "6",
+        "subType": "Palm Grove Villa",
+        "sizeSqft": "Please specify (if different from Coral Beach 6-bed)",
+        "plotSizeSqft": "Please specify",
+        "layouts": "Beach homes with direct access to sand and sea.",
+        "bathrooms": "Please specify",
+        "priceRangeAED": "Please specify (if different from Coral Beach 6-bed)"
+      }
+    ],
+    "amenities": [
+      "Ecological Park", "Yacht Club", "Helicopter and Air Taxi Landing Pad",
+      "Lagoon Beachfront", "Library Lounge", "Play Zones", "Luxurious pools",
+      "State-of-the-art fitness centres", "Parks", "Shopping centers", "Schools",
+      "Water sports facilities", "Golf course", "Marinas", "Over 25 lavish amenities"
+    ],
+    "paymentPlan": {
+      "bookingEOI": "10%",
+      "duringConstruction": "60% (typical)",
+      "onHandover": "40% (typical)",
+      "flexibility": "Flexible"
+    },
+    "investmentHighlights": [
+      "Unmatched privacy and exclusivity on a natural island",
+      "Direct sea and lagoon views from every villa",
+      "Sustainable design with a focus on preserving the island’s natural beauty",
+      "High investment potential with strong rental yields and capital appreciation",
+      "Freehold ownership for all nationalities"
+    ],
+    "projectDetails": {
+      "phase1TotalAreaSqFt": 16100000,
+      "phase1TotalVillas": 196,
+      "overallVillaSizesSqFt_Saleable": "4,815 – 9,788",
+      "overallPlotSizesSqFt": "5,839 – 14,756"
+    },
+    "locationDetails": {
+      "islandName": "Sobha Siniya Island",
+      "emirate": "Umm Al Quwain",
+      "accessibility": [
+        "Marjan Island: 10 minutes",
+        "Sharjah: 30 minutes",
+        "Dubai: 50 minutes",
+        "Convenient connectivity to Ras Al Khaimah"
+      ]
+    },
+    "imageUrls": [
+      "https://sobharealty.com/sites/default/files/styles/webp/public/2024-11/siniya-island-villas.jpg.webp?itok=dXdRy08H",
+      "Please provide gallery image URL 1 (optional)",
+      "Please provide gallery image URL 2 (optional)"
+    ],
+    "threeDTourUrl": "Please provide if available",
+    "floorPlanUrl": "Please provide if available",
+    "brochureUrl": "Please provide if available"
+  }
+]
