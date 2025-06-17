@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "perplexity-server": {
+      "command": "node",
+      "args": [
+        "C:\\Users\\phill\\AppData\\Roaming\\npm\\node_modules\\perplexity-mcp\\build\\index.js"
+      ],
+      "env": {
+        "PPLX_API_KEY": "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"
+      },
+      "disabled": false,
+      "alwaysAllow": [],
+      "autoApprove": [],
+      "timeout": 300
+    }
+  }
+}
+
